@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina5_9" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17125"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="bernat_segura_oscar_julian" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7Sy-qC-DxG">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KRb-p0-jLe">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="2044.6666666666667"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3Pg-Vr-8WN">
+                                                <rect key="frame" x="300" y="56" width="50" height="50"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="50" id="VF5-OI-UCq"/>
+                                                    <constraint firstAttribute="width" constant="50" id="mOU-SS-K9A"/>
+                                                </constraints>
+                                                <state key="normal" title="Button" image="info.circle" catalog="system"/>
+                                                <connections>
+                                                    <segue destination="bso-Jq-MjO" kind="show" id="t1z-MT-ApY"/>
+                                                </connections>
+                                            </button>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="This is KiddKeo" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wNR-WE-A8q">
+                                                <rect key="frame" x="30" y="100" width="164" height="28"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="23"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="V1H-Ms-kzf">
+                                                <rect key="frame" x="30" y="138.00000000000011" width="315" height="1866.666666666667"/>
+                                                <mutableString key="text">Padua Keoma Salas Sánchez nació el 27 de septiembre de 1995 en Alicante. Es de barrio y de familia humilde. Kidd Keo rapea alternando letras en inglés y castellano, posiblemente influenciado por la etapa en la que vivió en Canadá donde absorbió influencias no solo de música trap y rap, sino también de la moda, cultura y estilo de vida.
+
+Este cantante de trap español no entiende de censura y mezcla letras y ritmos potentes con bases con mucha clase con frescura underground. En sus canciones se aprecian guiños que van desde la música electrónica al metal.
+
+Su música es trap al más puro estilo americano y sus conciertos se han convertido en los más salvajes del trap actual. La repercusión de Kidd Keo actualmente es brutal y es uno de los cantantes de trap español que mas seguidores files tiene a nivel internacional.
+
+Kidd Keo planea ser el rey y tiene muy claro que para serlo, las influencias deben venir del extranjero.  Influencias de artistas de rap francés como Booba y americanos royo Gucci Mane están presentes en su música, pero lo que hace a Kidd Keo tan especial es su singularidad. Sabe ser diferente y por supuesto aporta algo nuevo a la música trap.
+
+Según él, no importa el género musical que hagas, lo importante es crear arte y no convertirte en producto. Cada artista cuenta algo diferente, y Kidd Keo es un trapero que cree en la simpleza, un estilo limpio que va al grano y que no da rodeos.
+
+Este estilo limpio, que va al grano, también se aplica en su forma de vestir, pero también en su manera de pensar y opiniones. Kidd Keo es un tío que no se corta, y que no tiene pelos en la lengua para “tirarle” a cualquiera. Su trap arrogante ya le ha llegado a todos, y ha llegado para quedarse.
+
+Una de las características de la música trap de Kidd Keo es que al final sus letras valen para todo. Habla de drogas, mujeres y dinero, y sus canciones acaban en los auriculares de chavales de barrio, pero también en los cascos de los chavales de los colegios privados.  Al final la personalidad que ha madurado consigo mismo le ha valido para que su estilo quede definido y que abarque cada día a más y más fans. El trap de Kidd Keo se escucha por todas partes, y sus polémicas letras le han valido para coger todavía más impulso.
+
+Temas como Okay, I Got o History forman ya parte de la cultura nacional del trap, pero quizás su tema trampolín fue Relax (2015) en el que, según el propio cantante, la gente empezó a entender de qué iba su música, quizás porque fue el momento clave en el que empezó a usar el español en sus letras, y por lo tanto, a funcionar como reclamo de los jóvenes amantes del trap nacional.
+
+Kidd Keo es reflejo de muchas culturas, con influencias de la música que escuchaba de niño, como Bebe y Mala Rodríguez, un poco de retazos de estilo del punk, el rock y la música electrónica, con una producción y un estilo personal y único, que lo convierten en el exponente y el artista puntero del trap nacional actual. Es un trap que se empapa de la calle, que sale de la esencia de la pobreza y que transmite mucho flow y carisma.</mutableString>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <constraints>
+                                            <constraint firstItem="V1H-Ms-kzf" firstAttribute="leading" secondItem="KRb-p0-jLe" secondAttribute="leading" constant="30" id="3ET-LB-r7z"/>
+                                            <constraint firstItem="wNR-WE-A8q" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="KRb-p0-jLe" secondAttribute="leading" constant="20" symbolic="YES" id="BOh-7z-aoJ"/>
+                                            <constraint firstAttribute="trailing" secondItem="3Pg-Vr-8WN" secondAttribute="trailing" constant="25" id="BeC-pm-L8R"/>
+                                            <constraint firstAttribute="trailing" secondItem="V1H-Ms-kzf" secondAttribute="trailing" constant="30" id="ImE-HH-LWS"/>
+                                            <constraint firstItem="wNR-WE-A8q" firstAttribute="top" secondItem="KRb-p0-jLe" secondAttribute="top" constant="100" id="KLT-bC-VDU"/>
+                                            <constraint firstAttribute="bottom" secondItem="V1H-Ms-kzf" secondAttribute="bottom" constant="40" id="LWR-ui-UMP"/>
+                                            <constraint firstItem="3Pg-Vr-8WN" firstAttribute="top" secondItem="KRb-p0-jLe" secondAttribute="top" constant="56" id="RYk-ef-TFp"/>
+                                            <constraint firstItem="3Pg-Vr-8WN" firstAttribute="leading" secondItem="wNR-WE-A8q" secondAttribute="trailing" constant="106" id="SSO-Vp-ElC"/>
+                                            <constraint firstItem="V1H-Ms-kzf" firstAttribute="top" secondItem="wNR-WE-A8q" secondAttribute="bottom" constant="10" id="npr-9s-HGl"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="KRb-p0-jLe" firstAttribute="width" secondItem="2vG-F7-S2y" secondAttribute="width" id="0uh-OB-tfE"/>
+                                    <constraint firstItem="KRb-p0-jLe" firstAttribute="bottom" secondItem="apq-HD-Ixn" secondAttribute="bottom" id="NdP-9j-DtD"/>
+                                    <constraint firstItem="KRb-p0-jLe" firstAttribute="trailing" secondItem="apq-HD-Ixn" secondAttribute="trailing" id="cDG-DP-Qd5"/>
+                                    <constraint firstItem="KRb-p0-jLe" firstAttribute="leading" secondItem="apq-HD-Ixn" secondAttribute="leading" id="qnm-R7-fqV"/>
+                                    <constraint firstItem="KRb-p0-jLe" firstAttribute="top" secondItem="apq-HD-Ixn" secondAttribute="top" id="vcb-Jy-cdb"/>
+                                </constraints>
+                                <viewLayoutGuide key="contentLayoutGuide" id="apq-HD-Ixn"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="2vG-F7-S2y"/>
+                            </scrollView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="7Sy-qC-DxG" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="2LV-Dw-36b"/>
+                            <constraint firstAttribute="trailing" secondItem="7Sy-qC-DxG" secondAttribute="trailing" id="aRI-bO-R89"/>
+                            <constraint firstAttribute="bottom" secondItem="7Sy-qC-DxG" secondAttribute="bottom" id="p5t-fO-pae"/>
+                            <constraint firstItem="7Sy-qC-DxG" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="rdi-qS-feR"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="140" y="103.44827586206897"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="XE4-0e-MXT">
+            <objects>
+                <viewController id="bso-Jq-MjO" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="iJh-Bj-plb">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="758"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" translatesAutoresizingMaskIntoConstraints="NO" id="L3G-5F-8rv">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="758"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="O6h-kR-81b">
+                                        <rect key="frame" x="0.0" y="0.0" width="1125" height="758"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lmo-wc-OWb" userLabel="DracukeoView">
+                                                <rect key="frame" x="0.0" y="0.0" width="375" height="758"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Dracukeo" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EZz-Bf-qiS" userLabel="Dracukeo">
+                                                        <rect key="frame" x="130" y="362" width="116" height="34"/>
+                                                        <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                                <color key="backgroundColor" systemColor="systemTealColor"/>
+                                                <constraints>
+                                                    <constraint firstItem="EZz-Bf-qiS" firstAttribute="top" secondItem="lmo-wc-OWb" secondAttribute="top" constant="362" id="APh-1b-cAa"/>
+                                                    <constraint firstItem="EZz-Bf-qiS" firstAttribute="leading" secondItem="lmo-wc-OWb" secondAttribute="leading" constant="130" id="sdA-vF-u6m"/>
+                                                </constraints>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yVY-1O-dE6" userLabel="OlvidateView">
+                                                <rect key="frame" x="375" y="0.0" width="375" height="758"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Olvídate" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tjy-WI-jF6">
+                                                        <rect key="frame" x="142" y="369" width="101" height="34"/>
+                                                        <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                                <color key="backgroundColor" systemColor="systemPurpleColor"/>
+                                                <constraints>
+                                                    <constraint firstItem="tjy-WI-jF6" firstAttribute="top" secondItem="yVY-1O-dE6" secondAttribute="top" constant="369" id="8LO-LA-fKz"/>
+                                                    <constraint firstItem="tjy-WI-jF6" firstAttribute="leading" secondItem="yVY-1O-dE6" secondAttribute="leading" constant="142" id="iUi-iS-J7A"/>
+                                                </constraints>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="B1Z-oN-OZQ" userLabel="MaVieView">
+                                                <rect key="frame" x="750" y="0.0" width="375" height="758"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ma Vie" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7qu-Qe-Gtt">
+                                                        <rect key="frame" x="146" y="362" width="83" height="34"/>
+                                                        <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                                <color key="backgroundColor" systemColor="systemYellowColor"/>
+                                                <constraints>
+                                                    <constraint firstItem="7qu-Qe-Gtt" firstAttribute="leading" secondItem="B1Z-oN-OZQ" secondAttribute="leading" constant="146" id="1n6-LN-uis"/>
+                                                    <constraint firstItem="7qu-Qe-Gtt" firstAttribute="top" secondItem="B1Z-oN-OZQ" secondAttribute="top" constant="362" id="xgJ-Nm-PjJ"/>
+                                                </constraints>
+                                            </view>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="trailing" secondItem="B1Z-oN-OZQ" secondAttribute="trailing" id="2v2-6n-azl"/>
+                                            <constraint firstItem="lmo-wc-OWb" firstAttribute="top" secondItem="O6h-kR-81b" secondAttribute="top" id="BiY-7T-EtE"/>
+                                            <constraint firstItem="yVY-1O-dE6" firstAttribute="leading" secondItem="lmo-wc-OWb" secondAttribute="trailing" id="Dce-wN-oom"/>
+                                            <constraint firstItem="yVY-1O-dE6" firstAttribute="top" secondItem="O6h-kR-81b" secondAttribute="top" id="Di9-bP-MGw"/>
+                                            <constraint firstItem="lmo-wc-OWb" firstAttribute="leading" secondItem="O6h-kR-81b" secondAttribute="leading" id="GDg-yp-4uf"/>
+                                            <constraint firstItem="B1Z-oN-OZQ" firstAttribute="leading" secondItem="yVY-1O-dE6" secondAttribute="trailing" id="Lbt-vI-r4Y"/>
+                                            <constraint firstItem="B1Z-oN-OZQ" firstAttribute="width" secondItem="lmo-wc-OWb" secondAttribute="width" id="Rhn-K2-bZ0"/>
+                                            <constraint firstAttribute="bottom" secondItem="lmo-wc-OWb" secondAttribute="bottom" id="aOw-ol-K7t"/>
+                                            <constraint firstItem="yVY-1O-dE6" firstAttribute="width" secondItem="lmo-wc-OWb" secondAttribute="width" id="gIg-NC-olu"/>
+                                            <constraint firstAttribute="bottom" secondItem="yVY-1O-dE6" secondAttribute="bottom" id="uQD-tD-rji"/>
+                                            <constraint firstItem="B1Z-oN-OZQ" firstAttribute="top" secondItem="O6h-kR-81b" secondAttribute="top" id="ve6-Kr-9CW"/>
+                                            <constraint firstAttribute="bottom" secondItem="B1Z-oN-OZQ" secondAttribute="bottom" id="zkO-tY-HLR"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="O6h-kR-81b" firstAttribute="bottom" secondItem="fBj-6U-HHN" secondAttribute="bottom" constant="758" id="KN0-y4-eoh"/>
+                                    <constraint firstItem="O6h-kR-81b" firstAttribute="top" secondItem="fBj-6U-HHN" secondAttribute="top" id="Po9-b3-LuG"/>
+                                    <constraint firstItem="lmo-wc-OWb" firstAttribute="width" secondItem="wWs-uB-3YP" secondAttribute="width" id="YuZ-mD-atc"/>
+                                    <constraint firstItem="O6h-kR-81b" firstAttribute="leading" secondItem="fBj-6U-HHN" secondAttribute="leading" id="mdg-as-FlL"/>
+                                    <constraint firstItem="O6h-kR-81b" firstAttribute="height" secondItem="wWs-uB-3YP" secondAttribute="height" id="qpO-FK-7w4"/>
+                                    <constraint firstItem="O6h-kR-81b" firstAttribute="trailing" secondItem="fBj-6U-HHN" secondAttribute="trailing" id="vUJ-ge-7C5"/>
+                                </constraints>
+                                <viewLayoutGuide key="contentLayoutGuide" id="fBj-6U-HHN"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="wWs-uB-3YP"/>
+                            </scrollView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="U4d-9J-Fiq"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="L3G-5F-8rv" firstAttribute="top" secondItem="U4d-9J-Fiq" secondAttribute="top" id="7gS-Ff-ucK"/>
+                            <constraint firstItem="L3G-5F-8rv" firstAttribute="trailing" secondItem="U4d-9J-Fiq" secondAttribute="trailing" id="VIB-UQ-Xhm"/>
+                            <constraint firstAttribute="bottom" secondItem="L3G-5F-8rv" secondAttribute="bottom" id="q3Z-dh-bXS"/>
+                            <constraint firstItem="L3G-5F-8rv" firstAttribute="leading" secondItem="U4d-9J-Fiq" secondAttribute="leading" id="wBy-Hq-iy1"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="t1D-eF-4Av"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="P2k-JY-aNm" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="904.79999999999995" y="103.44827586206897"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="info.circle" catalog="system" width="128" height="121"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemPurpleColor">
+            <color red="0.68627450980392157" green="0.32156862745098042" blue="0.87058823529411766" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemTealColor">
+            <color red="0.35294117647058826" green="0.78431372549019607" blue="0.98039215686274506" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemYellowColor">
+            <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

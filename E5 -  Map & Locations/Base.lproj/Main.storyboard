@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17125"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Map Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="MapController" customModule="oscar_julian_bernat_segura" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="8Wm-cd-qXW">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                            </mapView>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="P7c-q3-pRV">
+                                <rect key="frame" x="20" y="54" width="294" height="34"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kE8-Aw-PN9">
+                                <rect key="frame" x="344" y="57" width="50" height="28"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                <state key="normal" image="arrowshape.turn.up.right.fill" catalog="system"/>
+                                <connections>
+                                    <action selector="btnSearch:" destination="BYZ-38-t0r" eventType="touchUpInside" id="g5F-Id-t0D"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="n88-OD-Rsg">
+                                <rect key="frame" x="132" y="796" width="150" height="45"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="45" id="6ro-7L-tDN"/>
+                                </constraints>
+                                <state key="normal" title="Current Location"/>
+                                <connections>
+                                    <action selector="btnCurrLocation:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ZBB-BB-tFC"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="n88-OD-Rsg" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" constant="-21" id="4BG-6b-WiQ"/>
+                            <constraint firstItem="8Wm-cd-qXW" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="5sn-0E-YfG"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="kE8-Aw-PN9" secondAttribute="trailing" constant="20" id="7zS-Vl-byS"/>
+                            <constraint firstItem="8Wm-cd-qXW" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="ICg-rb-M9t"/>
+                            <constraint firstItem="n88-OD-Rsg" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="132" id="NFr-p8-Af5"/>
+                            <constraint firstAttribute="bottom" secondItem="8Wm-cd-qXW" secondAttribute="bottom" id="PpC-MM-NMR"/>
+                            <constraint firstItem="P7c-q3-pRV" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="10" id="VD0-oa-7IC"/>
+                            <constraint firstItem="kE8-Aw-PN9" firstAttribute="leading" secondItem="P7c-q3-pRV" secondAttribute="trailing" constant="30" id="auz-hk-dHw"/>
+                            <constraint firstItem="kE8-Aw-PN9" firstAttribute="centerY" secondItem="P7c-q3-pRV" secondAttribute="centerY" id="bu5-UF-lkt"/>
+                            <constraint firstItem="n88-OD-Rsg" firstAttribute="centerX" secondItem="8Wm-cd-qXW" secondAttribute="centerX" id="emq-uc-gZg"/>
+                            <constraint firstItem="P7c-q3-pRV" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="tRH-AG-p0y"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="P7c-q3-pRV" secondAttribute="trailing" constant="100" id="xjp-zJ-ISK"/>
+                            <constraint firstAttribute="trailing" secondItem="8Wm-cd-qXW" secondAttribute="trailing" id="yj2-8y-fEl"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="map" destination="8Wm-cd-qXW" id="ExE-Te-DBu"/>
+                        <outlet property="txtField" destination="P7c-q3-pRV" id="1qR-MZ-p3j"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="13.043478260869566" y="103.79464285714285"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="arrowshape.turn.up.right.fill" catalog="system" width="128" height="106"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
